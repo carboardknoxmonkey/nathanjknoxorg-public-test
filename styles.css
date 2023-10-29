@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+
+.header {
+    background-color: blue;
+    /*overflow: hidden;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: solid 10px;
+    color: white;
+}
+
+.fasoli_andres {
+    display: block;
+    height: 400px;
+    width: 400px;
+}
+
+.legal_claim {
+    color: white;
+    text-align: center;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    margin-left: 700px;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: blue;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* styles.css */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spin {
+    animation: spin 100s linear infinite;
+}

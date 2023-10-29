@@ -1,0 +1,53 @@
+
+
+<!DOCTYPE html>
+<head>
+    <title>Nathan J. Knox</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <div class="header">
+        <marquee scrollamount="24">I am Nathan James Knox. Known as Cardboardknoxmonkey/Carboardknoxmonkey, Knoxrobo, The Future Man, The Bean Man, Among other names. This bar will have breaking Nathan J. Knox new's that you don't wanna miss. You can come back here later. I will have more things. Please, worry not. I am Nathan and I promise I'll have more soon. Worry Not. This emptiness is not permanent. This emptiness is not permanent. This emptiness is not permanent. This emptiness is not permanent.</marquee>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <div class="tooltip">
+        <span class="tooltiptext">Click me!</span>
+    <img src="Icon_for_Channel.png" alt="fasoli andres" class="fasoli_andres" class="spin" id="g_image">
+    <audio id="g_song" controls style="display: none">
+        <source src="19-G.wav">
+    </audio>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p class="legal_claim">Nathan does not claim to own everything presented on this site.</p>
+
+</body>
+
+<script>
+    // Get the image and audio element by their IDs
+    var image = document.getElementById("g_image");
+    var audio = document.getElementById("g_song");
+
+    // Add a click event listener to the image
+    image.addEventListener("click", function() {
+        // Toggle audio playback: play if not playing, pause if already playing
+        if (audio.paused) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
+        if (image.classList.contains("spin")) {
+            image.classList.remove("spin");
+        } else {
+            image.classList.add("spin");
+        }
+    });
+</script>
